@@ -1,0 +1,33 @@
+virtual_modifiers:
+  - CapsLock
+
+keymap:
+  - name: Navigation and Tab Control
+    remap:
+      # Navigasi Vim Style (Kunci Panah)
+      CapsLock-k: Up
+      CapsLock-h: Left
+      CapsLock-j: Down
+      CapsLock-l: Right
+
+      # Memindahkan Posisi Tab
+      # CapsLock + o -> Pindah Tab Kiri (Ctrl+Shift+PageUp)
+      CapsLock-o: C-Shift-PageUp
+      # CapsLock + p -> Pindah Tab Kanan (Ctrl+Shift-PageDown)
+      CapsLock-p: C-Shift-PageDown
+
+      # Navigasi Browser (Go Back/Forward)
+      # CapsLock + [ -> Back (Alt+Left)
+      CapsLock-Leftbrace: Alt-Left
+      # CapsLock + ] -> Forward (Alt+Right)
+      CapsLock-Rightbrace: Alt-Right
+      CapsLock-semicolon: C-Shift-Tab
+      CapsLock-Apostrophe: C-Tab
+      # Kontrol Tab Baru
+      # CapsLock + / -> Tutup Tab (Ctrl+W)
+      CapsLock-slash: C-w
+      # CapsLock + . -> Kembalikan Tab yang Ditutup (Ctrl+Shift+T)
+      CapsLock-dot: C-Shift-t
+      # CapsLock + , -> Buka Tab Baru (Ctrl+T)
+      CapsLock-comma: C-t
+      CapsLock-Tab: C-a 
